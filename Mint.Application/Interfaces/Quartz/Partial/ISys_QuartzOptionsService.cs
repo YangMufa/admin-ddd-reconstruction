@@ -7,7 +7,7 @@ using Mint.Core.Utilities;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 
-namespace Mint.Sys.IServices
+namespace Mint.Application.IServices
 {
     public partial interface ISys_QuartzOptionsService
     {

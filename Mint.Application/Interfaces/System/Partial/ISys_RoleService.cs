@@ -5,7 +5,7 @@ using Mint.Core.Utilities;
 using Mint.Entity.DomainModels;
 using Mint.Sys.Services;
 
-namespace Mint.Sys.IServices
+namespace Mint.Application.IServices
 {
     public partial interface ISys_RoleService
     {

@@ -3,7 +3,7 @@ using Mint.Core.Utilities;
 using Mint.Entity.DomainModels;
 using System.Threading.Tasks;
 
-namespace Mint.Sys.IServices
+namespace Mint.Application.IServices
 {
     public partial interface ISys_UserService
     {

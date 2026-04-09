@@ -7,7 +7,7 @@
 using Mint.Core.BaseProvider;
 using Mint.Entity.DomainModels;
 
-namespace Mint.Sys.IServices
+namespace Mint.Application.IServices
 {
     public partial interface IvSys_DictionaryService : IService<vSys_Dictionary>
     {

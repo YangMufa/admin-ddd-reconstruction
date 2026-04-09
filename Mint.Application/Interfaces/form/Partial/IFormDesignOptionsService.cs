@@ -5,7 +5,7 @@ using Mint.Core.BaseProvider;
 using Mint.Entity.DomainModels;
 using Mint.Core.Utilities;
 using System.Linq.Expressions;
-namespace Mint.Sys.IServices
+namespace Mint.Application.IServices
 {
     public partial interface IFormDesignOptionsService
     {

@@ -4,7 +4,7 @@
 using Mint.Core.BaseProvider;
 using Mint.Entity.DomainModels;
 
-namespace Mint.Sys.IServices
+namespace Mint.Application.IServices
 {
     public partial interface ISys_WorkFlowTableAuditLogService : IService<Sys_WorkFlowTableAuditLog>
     {

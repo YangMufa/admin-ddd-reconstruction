@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Mint.Core.BaseProvider;
 using Mint.Entity.DomainModels;
 
-namespace Mint.Sys.IServices
+namespace Mint.Application.IServices
 {
     public partial interface ISys_DictionaryService
     {
