@@ -1,10 +1,10 @@
-﻿using Mint.Sys.IRepositories;
-using Mint.Sys.IServices;
-using Mint.Core.BaseProvider;
-using Mint.Core.Extensions.AutofacManager;
+﻿using Mint.Application.Services.IRepositories;
+using Mint.Application.Services.IServices;
+using Mint.Infrastructure.Data;BaseProvider;
+using Mint.Infrastructure.Data;Extensions.AutofacManager;
 using Mint.Entity.DomainModels;
 
-namespace Mint.Sys.Services
+namespace Mint.Application.Services
 {
     public partial class Sys_LogService : ServiceBase<Sys_Log, ISys_LogRepository>, ISys_LogService, IDependency
     {

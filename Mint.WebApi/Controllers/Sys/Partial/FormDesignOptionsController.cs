@@ -10,15 +10,15 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Http;
 using Mint.Entity.DomainModels;
-using Mint.Sys.IServices;
-using Mint.Sys.IRepositories;
+using Mint.Application.Services.IServices;
+using Mint.Application.Services.IRepositories;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
-using Mint.Sys.Services;
-using Mint.Core.DBManager;
+using Mint.Application.Services.Services;
+using Mint.Infrastructure.Data;DBManager;
 using SqlSugar;
 
-namespace Mint.Sys.Controllers
+namespace Mint.WebApi.Controllers.Controllers
 {
     public partial class FormDesignOptionsController
     { 

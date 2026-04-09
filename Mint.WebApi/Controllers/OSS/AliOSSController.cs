@@ -8,10 +8,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Mint.Core.CacheManager;
-using Mint.Core.Filters;
-using Mint.Core.Services;
-using Mint.Core.Utilities;
+using Mint.Infrastructure.Data;CacheManager;
+using Mint.Infrastructure.Data;Filters;
+using Mint.Infrastructure.Data;Services;
+using Mint.Infrastructure.Data;Utilities;
 
 namespace Mint.WebApi.Controllers.OSS
 {

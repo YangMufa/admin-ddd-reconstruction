@@ -6,13 +6,13 @@ using System;
 using System.Linq;
 using System.Reflection;
 using System.Runtime.Loader;
-using Mint.Core.DBManager;
-using Mint.Core.DbSqlSugar;
-using Mint.Core.Extensions;
-using Mint.Core.Extensions.AutofacManager;
+using Mint.Infrastructure.Data;DBManager;
+using Mint.Infrastructure.Data;DbSqlSugar;
+using Mint.Infrastructure.Data;Extensions;
+using Mint.Infrastructure.Data;Extensions.AutofacManager;
 using Mint.Entity.SystemModels;
 
-namespace Mint.Core.DbContext
+namespace Mint.Infrastructure.Data
 {
     public class VOLContext : DbContext, IDependency
     {

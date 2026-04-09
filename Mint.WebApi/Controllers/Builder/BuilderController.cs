@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;
-using Mint.Core.Filters;
+using Mint.Infrastructure.Data;Filters;
 using Mint.Entity.DomainModels;
 
 namespace Mint.WebApi.Controllers.Builder

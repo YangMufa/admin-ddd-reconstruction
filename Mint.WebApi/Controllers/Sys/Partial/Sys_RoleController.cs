@@ -7,21 +7,21 @@ using SqlSugar;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Mint.Core.Controllers.Basic;
-using Mint.Core.Enums;
-using Mint.Core.Extensions;
-using Mint.Core.Filters;
-using Mint.Core.ManageUser;
-using Mint.Core.UserManager;
-using Mint.Core.Utilities;
+using Mint.Infrastructure.Data;Controllers.Basic;
+using Mint.Infrastructure.Data;Enums;
+using Mint.Infrastructure.Data;Extensions;
+using Mint.Infrastructure.Data;Filters;
+using Mint.Infrastructure.Data;ManageUser;
+using Mint.Infrastructure.Data;UserManager;
+using Mint.Infrastructure.Data;Utilities;
 using Mint.Entity.AttributeManager;
 using Mint.Entity.DomainModels;
-using Mint.Sys.IRepositories;
-using Mint.Sys.IServices;
-using Mint.Sys.Repositories;
-using Mint.Sys.Services;
+using Mint.Application.Services.IRepositories;
+using Mint.Application.Services.IServices;
+using Mint.Application.Services.Repositories;
+using Mint.Application.Services.Services;
 
-namespace Mint.Sys.Controllers
+namespace Mint.WebApi.Controllers.Controllers
 {
     [Route("api/role")]
     public partial class Sys_RoleController

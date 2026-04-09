@@ -4,7 +4,7 @@
  *Date：2018-07-01
  * 此代码由框架生成，请勿随意更改
  */
-using Mint.Core.BaseProvider;
+using Mint.Infrastructure.Data;BaseProvider;
 using Mint.Entity.DomainModels;
 
 namespace Mint.Application.IServices

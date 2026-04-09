@@ -2,14 +2,14 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Mint.Core.Controllers.Basic;
-using Mint.Core.Enums;
-using Mint.Core.Filters;
+using Mint.Infrastructure.Data;Controllers.Basic;
+using Mint.Infrastructure.Data;Enums;
+using Mint.Infrastructure.Data;Filters;
 using Mint.Entity.AttributeManager;
 using Mint.Entity.DomainModels;
-using Mint.Sys.IServices;
+using Mint.Application.Services.IServices;
 
-namespace Mint.Sys.Controllers
+namespace Mint.WebApi.Controllers.Controllers
 {
     [Route("api/Sys_Role")]
     [PermissionTable(Name = "Sys_Role")]

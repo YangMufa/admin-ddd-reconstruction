@@ -8,14 +8,14 @@ using System.Linq.Expressions;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
-using Mint.Core.BaseProvider;
-using Mint.Core.Configuration;
-using Mint.Core.DbContext;
-using Mint.Core.DBManager;
-using Mint.Core.Enums;
-using Mint.Core.Extensions;
+using Mint.Infrastructure.Data;BaseProvider;
+using Mint.Infrastructure.Data;Configuration;
+using Mint.Infrastructure.Data;DbContext;
+using Mint.Infrastructure.Data;DBManager;
+using Mint.Infrastructure.Data;Enums;
+using Mint.Infrastructure.Data;Extensions;
 
-namespace Mint.Core.DBManager
+namespace Mint.Infrastructure.Data
 {
     public static class SqlSugarExtension
     {

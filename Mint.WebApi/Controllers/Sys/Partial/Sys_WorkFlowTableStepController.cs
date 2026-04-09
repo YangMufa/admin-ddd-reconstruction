@@ -10,9 +10,9 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Http;
 using Mint.Entity.DomainModels;
-using Mint.Sys.IServices;
+using Mint.Application.Services.IServices;
 
-namespace Mint.Sys.Controllers
+namespace Mint.WebApi.Controllers.Controllers
 {
     public partial class Sys_WorkFlowTableStepController
     {

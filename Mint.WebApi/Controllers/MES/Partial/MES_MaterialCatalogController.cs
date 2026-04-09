@@ -10,13 +10,13 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Http;
 using Mint.Entity.DomainModels;
-using Mint.MES.IServices;
-using Mint.MES.IRepositories;
-using Mint.Core.BaseProvider;
+using Mint.WebApi.Controllers.IServices;
+using Mint.WebApi.Controllers.IRepositories;
+using Mint.Infrastructure.Data;BaseProvider;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
 
-namespace Mint.MES.Controllers
+namespace Mint.WebApi.Controllers.Controllers
 {
     public partial class MES_MaterialCatalogController
     {

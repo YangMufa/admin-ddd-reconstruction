@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Mint.Core.DBManager
+namespace Mint.Infrastructure.Data
 {
     public class DBConnectionAttribute : Attribute
     {

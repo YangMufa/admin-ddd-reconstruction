@@ -3,10 +3,10 @@
  *如果要增加方法请在当前目录下Partial文件夹Sys_DictionaryListController编写
  */
 using Microsoft.AspNetCore.Mvc;
-using Mint.Core.Controllers.Basic;
+using Mint.Infrastructure.Data;Controllers.Basic;
 using Mint.Entity.AttributeManager;
-using Mint.Sys.IServices;
-namespace Mint.Sys.Controllers
+using Mint.Application.Services.IServices;
+namespace Mint.WebApi.Controllers.Controllers
 {
     [Route("api/Sys_DictionaryList")]
     [PermissionTable(Name = "Sys_DictionaryList")]

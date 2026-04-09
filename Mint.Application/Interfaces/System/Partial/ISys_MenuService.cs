@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using Mint.Core.Utilities;
+using Mint.Infrastructure.Data;Utilities;
 using Mint.Entity.DomainModels;
 
 namespace Mint.Application.IServices

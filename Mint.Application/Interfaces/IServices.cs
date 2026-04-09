@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Mint.Core.BaseInterface
+namespace Mint.Domain
 {
     public interface IServices
     {

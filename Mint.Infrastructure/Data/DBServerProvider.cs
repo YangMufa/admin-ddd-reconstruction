@@ -5,14 +5,14 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
-using Mint.Core.Configuration;
-using Mint.Core.Const;
-using Mint.Core.DbContext;
-using Mint.Core.DbSqlSugar;
-using Mint.Core.Enums;
-using Mint.Core.Extensions;
+using Mint.Infrastructure.Data;Configuration;
+using Mint.Infrastructure.Data;Const;
+using Mint.Infrastructure.Data;DbContext;
+using Mint.Infrastructure.Data;DbSqlSugar;
+using Mint.Infrastructure.Data;Enums;
+using Mint.Infrastructure.Data;Extensions;
 
-namespace Mint.Core.DBManager
+namespace Mint.Infrastructure.Data
 {
     public partial class DBServerProvider: DbManger
     {

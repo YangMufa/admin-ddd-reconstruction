@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Mint.Core.DBManage
+namespace Mint.Infrastructure.Data
 {
     public struct DbName
     {

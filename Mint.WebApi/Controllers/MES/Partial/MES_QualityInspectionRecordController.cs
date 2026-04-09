@@ -10,9 +10,9 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Http;
 using Mint.Entity.DomainModels;
-using Mint.MES.IServices;
+using Mint.WebApi.Controllers.IServices;
 
-namespace Mint.MES.Controllers
+namespace Mint.WebApi.Controllers.Controllers
 {
     public partial class MES_QualityInspectionRecordController
     {

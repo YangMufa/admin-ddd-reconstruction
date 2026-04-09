@@ -1,5 +1,5 @@
-﻿using Mint.Core.BaseProvider;
-using Mint.Core.Utilities;
+﻿using Mint.Infrastructure.Data;BaseProvider;
+using Mint.Infrastructure.Data;Utilities;
 using Mint.Entity.DomainModels;
 using System.Threading.Tasks;
 

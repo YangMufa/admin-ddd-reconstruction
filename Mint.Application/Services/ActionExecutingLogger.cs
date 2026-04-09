@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Mint.Core.Services
+namespace Mint.Application.Services
 {
    public class ActionObserver
     {

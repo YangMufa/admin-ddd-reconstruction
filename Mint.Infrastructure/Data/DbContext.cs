@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Mint.Core.DBManager;
+using Mint.Infrastructure.Data;DBManager;
 
-namespace Mint.Core.DbContext
+namespace Mint.Infrastructure.Data
 {
     public abstract class DbContext
     {

@@ -10,11 +10,11 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Http;
 using Mint.Entity.DomainModels;
-using Mint.Sys.IServices;
-using Mint.Core.Filters;
-using Mint.Core.Enums;
+using Mint.Application.Services.IServices;
+using Mint.Infrastructure.Data;Filters;
+using Mint.Infrastructure.Data;Enums;
 
-namespace Mint.Sys.Controllers
+namespace Mint.WebApi.Controllers.Controllers
 {
     public partial class Sys_QuartzOptionsController
     {

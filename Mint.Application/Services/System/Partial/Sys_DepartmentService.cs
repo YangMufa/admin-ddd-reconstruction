@@ -6,23 +6,23 @@
 *用户信息、权限、角色等使用UserContext.Current操作
 *Sys_DepartmentService对增、删、改查、导入、导出、审核业务代码扩展参照ServiceFunFilter
 */
-using Mint.Core.BaseProvider;
-using Mint.Core.Extensions.AutofacManager;
+using Mint.Infrastructure.Data;BaseProvider;
+using Mint.Infrastructure.Data;Extensions.AutofacManager;
 using Mint.Entity.DomainModels;
 using System.Linq;
-using Mint.Core.Utilities;
+using Mint.Infrastructure.Data;Utilities;
 using System.Linq.Expressions;
-using Mint.Core.Extensions;
+using Mint.Infrastructure.Data;Extensions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Http;
-using Mint.Sys.IRepositories;
+using Mint.Application.Services.IRepositories;
 using System.Collections.Generic;
-using Mint.Core.ManageUser;
-using Mint.Core.UserManager;
+using Mint.Infrastructure.Data;ManageUser;
+using Mint.Infrastructure.Data;UserManager;
 using SqlSugar;
 
-namespace Mint.Sys.Services
+namespace Mint.Application.Services
 {
     public partial class Sys_DepartmentService
     {

@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-using Mint.Core.BaseProvider;
-using Mint.Core.Const;
-using Mint.Core.DBManager;
-using Mint.Core.Enums;
-using Mint.Core.Extensions;
-using Mint.Core.Infrastructure;
-using Mint.Core.Utilities;
+using Mint.Infrastructure.Data;BaseProvider;
+using Mint.Infrastructure.Data;Const;
+using Mint.Infrastructure.Data;DBManager;
+using Mint.Infrastructure.Data;Enums;
+using Mint.Infrastructure.Data;Extensions;
+using Mint.Infrastructure.Data;Infrastructure;
+using Mint.Infrastructure.Data;Utilities;
 using Mint.Entity.DomainModels;
 
-namespace Mint.Sys.Services
+namespace Mint.Application.Services
 {
     public partial class Sys_DictionaryService
     {

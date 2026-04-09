@@ -1,12 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
-using Mint.Core.Controllers.Basic;
-using Mint.Core.Enums;
-using Mint.Core.Filters;
+using Mint.Infrastructure.Data;Controllers.Basic;
+using Mint.Infrastructure.Data;Enums;
+using Mint.Infrastructure.Data;Filters;
 using Mint.Entity.DomainModels;
-using Mint.Sys.IServices;
+using Mint.Application.Services.IServices;
 
-namespace Mint.Sys.Controllers
+namespace Mint.WebApi.Controllers.Controllers
 {
     [Route("api/menu")]
     [ApiController, JWTAuthorize()]

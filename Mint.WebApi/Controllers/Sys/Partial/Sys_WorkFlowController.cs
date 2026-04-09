@@ -10,20 +10,20 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Http;
 using Mint.Entity.DomainModels;
-using Mint.Sys.IServices;
-using Mint.Core.WorkFlow;
-using Mint.Sys.IRepositories;
+using Mint.Application.Services.IServices;
+using Mint.Infrastructure.Data;WorkFlow;
+using Mint.Application.Services.IRepositories;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
-using Mint.Core.ManageUser;
-using Mint.Core.Services;
-using Mint.Core.Infrastructure;
-using Mint.Core.DBManager;
+using Mint.Infrastructure.Data;ManageUser;
+using Mint.Infrastructure.Data;Services;
+using Mint.Infrastructure.Data;Infrastructure;
+using Mint.Infrastructure.Data;DBManager;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
-using Mint.Core.Extensions;
-using Mint.Core.UserManager;
+using Mint.Infrastructure.Data;Extensions;
+using Mint.Infrastructure.Data;UserManager;
 
-namespace Mint.Sys.Controllers
+namespace Mint.WebApi.Controllers.Controllers
 {
     public partial class Sys_WorkFlowController
     {

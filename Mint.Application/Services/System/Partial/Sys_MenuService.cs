@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Mint.Core.DBManager;
-using Mint.Core.Extensions;
-using Mint.Core.ManageUser;
-using Mint.Core.Services;
-using Mint.Core.Utilities;
+using Mint.Infrastructure.Data;DBManager;
+using Mint.Infrastructure.Data;Extensions;
+using Mint.Infrastructure.Data;ManageUser;
+using Mint.Infrastructure.Data;Services;
+using Mint.Infrastructure.Data;Utilities;
 using Mint.Entity;
 using Mint.Entity.DomainModels;
 
-namespace Mint.Sys.Services
+namespace Mint.Application.Services
 {
     public partial class Sys_MenuService
     {

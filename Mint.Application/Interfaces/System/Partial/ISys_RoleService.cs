@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using Mint.Core.UserManager;
-using Mint.Core.Utilities;
+using Mint.Infrastructure.Data;UserManager;
+using Mint.Infrastructure.Data;Utilities;
 using Mint.Entity.DomainModels;
-using Mint.Sys.Services;
+using Mint.Application.Services.Services;
 
 namespace Mint.Application.IServices
 {

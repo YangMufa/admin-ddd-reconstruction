@@ -3,10 +3,10 @@
  *如果要增加方法请在当前目录下Partial文件夹MES_CustomerController编写
  */
 using Microsoft.AspNetCore.Mvc;
-using Mint.Core.Controllers.Basic;
+using Mint.Infrastructure.Data;Controllers.Basic;
 using Mint.Entity.AttributeManager;
-using Mint.MES.IServices;
-namespace Mint.MES.Controllers
+using Mint.WebApi.Controllers.IServices;
+namespace Mint.WebApi.Controllers.Controllers
 {
     [Route("api/MES_Customer")]
     [PermissionTable(Name = "MES_Customer")]

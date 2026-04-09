@@ -1,12 +1,12 @@
-﻿using Mint.Core.BaseProvider;
-using Mint.Core.Extensions.AutofacManager;
+﻿using Mint.Infrastructure.Data;BaseProvider;
+using Mint.Infrastructure.Data;Extensions.AutofacManager;
 using Mint.Entity.DomainModels;
 using System.Linq;
-using Mint.Core.Extensions;
+using Mint.Infrastructure.Data;Extensions;
 using System.Collections.Generic;
-using Mint.Core.Enums;
+using Mint.Infrastructure.Data;Enums;
 
-namespace Mint.Sys.Services
+namespace Mint.Application.Services
 {
     public partial class Sys_DictionaryListService
     {

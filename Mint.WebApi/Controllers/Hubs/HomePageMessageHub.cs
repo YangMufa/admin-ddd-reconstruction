@@ -6,10 +6,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Mint.Core.CacheManager;
-using Mint.Core.Extensions;
-using Mint.Core.ManageUser;
-using Mint.Sys.IServices;
+using Mint.Infrastructure.Data;CacheManager;
+using Mint.Infrastructure.Data;Extensions;
+using Mint.Infrastructure.Data;ManageUser;
+using Mint.Application.Services.IServices;
 
 namespace Mint.WebApi.Controllers.Hubs
 {

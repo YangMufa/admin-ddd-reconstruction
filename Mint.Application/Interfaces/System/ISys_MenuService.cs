@@ -1,4 +1,4 @@
-﻿using Mint.Core.BaseProvider;
+﻿using Mint.Infrastructure.Data;BaseProvider;
 using Mint.Entity.DomainModels;
 
 namespace Mint.Application.IServices

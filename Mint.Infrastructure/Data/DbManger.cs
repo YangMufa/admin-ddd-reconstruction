@@ -5,12 +5,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Mint.Core.DBManager;
-using Mint.Core.Enums;
-using Mint.Core.ManageUser;
-using Mint.Core.Utilities;
+using Mint.Infrastructure.Data;DBManager;
+using Mint.Infrastructure.Data;Enums;
+using Mint.Infrastructure.Data;ManageUser;
+using Mint.Infrastructure.Data;Utilities;
 
-namespace Mint.Core.DbSqlSugar
+namespace Mint.Infrastructure.Data
 {
     public class DbManger
     {

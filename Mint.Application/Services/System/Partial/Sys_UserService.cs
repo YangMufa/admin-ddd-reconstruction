@@ -8,17 +8,17 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Mint.Core.Configuration;
-using Mint.Core.DBManager;
-using Mint.Core.Enums;
-using Mint.Core.Extensions;
-using Mint.Core.ManageUser;
-using Mint.Core.Services;
-using Mint.Core.Utilities;
+using Mint.Infrastructure.Data;Configuration;
+using Mint.Infrastructure.Data;DBManager;
+using Mint.Infrastructure.Data;Enums;
+using Mint.Infrastructure.Data;Extensions;
+using Mint.Infrastructure.Data;ManageUser;
+using Mint.Infrastructure.Data;Services;
+using Mint.Infrastructure.Data;Utilities;
 using Mint.Entity.DomainModels;
-using Mint.Sys.IRepositories;
+using Mint.Application.Services.IRepositories;
 
-namespace Mint.Sys.Services
+namespace Mint.Application.Services
 {
     public partial class Sys_UserService
     {

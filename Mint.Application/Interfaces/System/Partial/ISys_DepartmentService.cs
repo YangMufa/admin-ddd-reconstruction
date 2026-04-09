@@ -1,9 +1,9 @@
 /*
 *所有关于Sys_Department类的业务代码接口应在此处编写
 */
-using Mint.Core.BaseProvider;
+using Mint.Infrastructure.Data;BaseProvider;
 using Mint.Entity.DomainModels;
-using Mint.Core.Utilities;
+using Mint.Infrastructure.Data;Utilities;
 using System.Linq.Expressions;
 namespace Mint.Application.IServices
 {

@@ -7,10 +7,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Mint.Core.BaseProvider;
+using Mint.Infrastructure.Data;BaseProvider;
 using Mint.Entity.DomainModels;
-using Mint.Core.Extensions.AutofacManager;
-namespace Mint.Sys.IRepositories
+using Mint.Infrastructure.Data;Extensions.AutofacManager;
+namespace Mint.Infrastructure.Repositories.IRepositories
 {
     public partial interface ISys_WorkFlowTableStepRepository : IDependency,IRepository<Sys_WorkFlowTableStep>
     {

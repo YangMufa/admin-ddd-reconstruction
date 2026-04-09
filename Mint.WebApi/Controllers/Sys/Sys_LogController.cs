@@ -4,12 +4,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Mint.Core.Controllers.Basic;
-using Mint.Core.DBManager;
+using Mint.Infrastructure.Data;Controllers.Basic;
+using Mint.Infrastructure.Data;DBManager;
 using Mint.Entity.DomainModels;
-using Mint.Sys.IServices;
+using Mint.Application.Services.IServices;
 
-namespace Mint.Sys.Controllers
+namespace Mint.WebApi.Controllers.Controllers
 {
     [Route("api/Sys_Log")]
     public partial class Sys_LogController : ApiBaseController<ISys_LogService>

@@ -2,12 +2,12 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Mint.Core.Controllers.Basic;
-using Mint.Core.Extensions;
-using Mint.Core.Filters;
-using Mint.Sys.IServices;
+using Mint.Infrastructure.Data;Controllers.Basic;
+using Mint.Infrastructure.Data;Extensions;
+using Mint.Infrastructure.Data;Filters;
+using Mint.Application.Services.IServices;
 
-namespace Mint.Sys.Controllers
+namespace Mint.WebApi.Controllers.Controllers
 {
     public partial class Sys_DictionaryController
     {

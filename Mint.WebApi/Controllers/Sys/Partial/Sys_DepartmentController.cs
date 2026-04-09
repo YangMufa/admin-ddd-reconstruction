@@ -10,18 +10,18 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Http;
 using Mint.Entity.DomainModels;
-using Mint.Sys.IServices;
-using Mint.Core.Filters;
-using Mint.Core.Enums;
-using Mint.Core.Extensions;
-using Mint.Sys.IRepositories;
+using Mint.Application.Services.IServices;
+using Mint.Infrastructure.Data;Filters;
+using Mint.Infrastructure.Data;Enums;
+using Mint.Infrastructure.Data;Extensions;
+using Mint.Application.Services.IRepositories;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
-using Mint.Core.ManageUser;
-using Mint.Core.UserManager;
+using Mint.Infrastructure.Data;ManageUser;
+using Mint.Infrastructure.Data;UserManager;
 using SqlSugar;
 
-namespace Mint.Sys.Controllers
+namespace Mint.WebApi.Controllers.Controllers
 {
     public partial class Sys_DepartmentController
     {
