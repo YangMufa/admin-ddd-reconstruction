@@ -36,11 +36,6 @@ namespace VOL.WebApi.Controllers.OSS
             // //https://help.aliyun.com/document_detail/31837.htm?spm=a2c4g.11186623.0.0.57a8396cwRnyQV#section-plb-2vy-5db
             // string region = "oss-cn-beijing";
 
-             
-            ////https://ram.console.aliyun.com/users 用户点击进去里面找
-            // string accessKeyID = "LTAI5tR4bQnBZqF8ruGiw123";
-            // string accessKeySecret = "gZUwXdy1mVsPvROfNCsvmVWOeqi123";
-
             //// https://ram.console.aliyun.com/roles/AliyunServiceRoleForSLSAudit 角色点进去找ARN
             // string ARN = "acs:ram::1807122303681234:role/vol-role";
             // WebResponseContent webResponse = new WebResponseContent();
