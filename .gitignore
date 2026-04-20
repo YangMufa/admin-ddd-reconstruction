@@ -1,0 +1,60 @@
+```
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+.vs/
+.vscode/
+*.userprefs
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Environment specific
+.env
+.env.local
+*.env*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Dependency directories
+node_modules/
+packages/
+
+# Test results
+TestResults/
+
+# IDE
+.idea/
+*.swp
+*.swo
+
+# Compiled and build artifacts
+*.dll
+*.exe
+*.pdb
+*.nupkg
+*.zip
+*.tar
+*.gz
+*.7z
+*.rar
+
+# Temporary files
+*.tmp
+*.temp
+```
